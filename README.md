@@ -8,6 +8,25 @@ It includes two stages:
 * training Convolutional Neural Network, on Google Colab,
 * programming Raspberry Pi 3B
 
+In the /colab dir you can see the code used to training the CNN and the .tflite model. 
+
+# Training
+## Dataset
+This project uses dataset which includes 7770 images belonging to 8 classes (traffic signs) in the training dataset and 
+2490 images in the validation dataset.
+
+Here are examples from each traffic sign (after grayscale, equalisation and normalisation):
+![Examples for each traffic sign](/media/traffic_signs.png)
+
+## Accuracy and loss values
+After training stage:
+
+![Accuracy](/media/accuracy.png)
+
+![Loss](/media/loss.png)
+
+After validation stage the accuracy of the model was equal to 0.8125.
+
 # Libraries and frameworks:
 * Tensorflow == 2.9.1
 * Tensorflow Hub == 0.12.0
