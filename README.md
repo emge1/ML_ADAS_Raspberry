@@ -38,4 +38,4 @@ After validation stage the accuracy of the model was equal to 0.8125.
 
 # Sources
 * [dataset GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign) - license CC0
-* [headless model MobileNet V1](https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/feature_vector/4) - license Apache 2.0
+* [headless model MobileNet V2](https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/4) - license Apache 2.0
