@@ -44,16 +44,19 @@ on images or videos and configuring the watchdog timer for the system.
 
 In my thesis, I used the Python version of code.
 
-The C++ version is later. It will also include lightning a LED, depending on the detected sign.
+The C++ version is later. It will also include lightning a LED, depending on the detected sign and will use SSD 
+MobileNet Neural Network (instead of MobileNet).
 
 
 
 # Further plans
 
 * code for Raspberry Pi in C++ (in progress),
-* my implementation of MobileNet (or another Convolutional Neural Network).
+* code for training SSD MobileNet Neural Network in C++ (in progress).
 
 # Dependencies:
+
+## Python
 * Tensorflow
 * Tensorflow Hub
 * Numpy
